@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Quiz";
+    var pessoa = ViewBag.Pessoa as QuizAspNet.Models.Pessoa;
+    var quiz = ViewBag.Quiz as QuizAspNet.Models.Quiz;
+}
+
+<h2>@pessoa.Nome - @quiz.Titulo</h2>
+
+<form asp-action="Resultado" method="post">
+    @for (int i = 0; i < quiz.Questoes.Count; i++)
+    {
+        var questao = quiz.Questoes[i];
+        <div class="questao">
+            <h4>@questao.Pergunta</h4>
+            <ul>
+                @for (int j = 0; j < questao.Alternativas.Count; j++)
+                {
+                    <li>
+                        <input type="radio" id="Alternativas" name="respostas[@i]" value="@questao.Alternativas[j]" required />
+                        <label for="Alternativas">@questao.Alternativas[j]</label>
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+
+    <button type="submit">Enviar Respostas</button>
+</form>
+
