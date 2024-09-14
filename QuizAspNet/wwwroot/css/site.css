@@ -1,22 +1,148 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
+
+
+/* Inicio: tratamento do Menu */
+
+#bodyMenu {
+    background-image: url(../img/bgMenu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: auto;
 }
+
+div {
+    display: inline-block;
+}
+
+.barraLateral {
+    text-align: left;
+    width: 230px;
+    height: 100%;
+    background-color: rgb(19, 19, 19);
+    position: fixed;
+    padding: 20px;
+}
+
+.imgMenuButton {
+    display: inline-block;
+    text-align: center;
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+.menuListButtons {
+    display: inline-block;
+    text-align: center;
+}
+
+.menuButton {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+/* Fim: tratamento do Menu */
+
+/* Inicio: tratamento do Acervo */
+
+#bodyAcervo {
+    background-color: rgb(19, 19, 19);
+    background-image: url(../img/bgAcervo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: auto;
+}
+
+#acervoMenuButton .imgMenuButton {
+    height: 110px;
+    width: 220px;
+    object-fit: cover;
+}
+
+#divItensAcervo {
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 40px;
+    height: auto;
+    width: 550px;
+}
+
+.itemAcervo {
+    list-style: none;
+    text-align: center;
+    height: 270px;
+    width: 520px;
+    background-color: white;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.itemAcervoTitulo {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.itemAcervoHr {
+    margin-top: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.itemAcervoButton {
+    height: 35px;
+    width: inherit;
+    background-color: rgb(19, 19, 19);
+    text-align: center;
+    margin-top: 190px;
+    border-radius: 20px;
+}
+
+    .itemAcervoButton a {
+        text-decoration: none;
+    }
+
+
+    .itemAcervoButton p {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+        color: white;
+        text-align: center;
+        margin: 5px;
+    }
+
+/* Fim: tratamento do Acervo */
+
+

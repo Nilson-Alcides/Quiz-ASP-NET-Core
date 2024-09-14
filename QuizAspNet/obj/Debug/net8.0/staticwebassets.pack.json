@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Nilson\\source\\repos\\ASPNETCORE\\QuizAspNet\\Quiz-ASP-NET-Core\\QuizAspNet\\wwwroot\\img\\acervoButton.png",
+      "PackagePath": "staticwebassets\\img\\acervoButton.png"
+    },
+    {
+      "Id": "C:\\Users\\Nilson\\source\\repos\\ASPNETCORE\\QuizAspNet\\Quiz-ASP-NET-Core\\QuizAspNet\\wwwroot\\img\\bgAcervo.png",
+      "PackagePath": "staticwebassets\\img\\bgAcervo.png"
+    },
+    {
+      "Id": "C:\\Users\\Nilson\\source\\repos\\ASPNETCORE\\QuizAspNet\\Quiz-ASP-NET-Core\\QuizAspNet\\wwwroot\\img\\bgMenu.png",
+      "PackagePath": "staticwebassets\\img\\bgMenu.png"
+    },
+    {
+      "Id": "C:\\Users\\Nilson\\source\\repos\\ASPNETCORE\\QuizAspNet\\Quiz-ASP-NET-Core\\QuizAspNet\\wwwroot\\img\\menuButton.png",
+      "PackagePath": "staticwebassets\\img\\menuButton.png"
+    },
+    {
+      "Id": "C:\\Users\\Nilson\\source\\repos\\ASPNETCORE\\QuizAspNet\\Quiz-ASP-NET-Core\\QuizAspNet\\wwwroot\\img\\rollButton.png",
+      "PackagePath": "staticwebassets\\img\\rollButton.png"
+    },
+    {
       "Id": "C:\\Users\\Nilson\\source\\repos\\ASPNETCORE\\QuizAspNet\\Quiz-ASP-NET-Core\\QuizAspNet\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

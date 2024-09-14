@@ -1,8 +1,17 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio";
 }
+<link rel="Stylesheet" href="../../css/site.css" />
+<title>Inicio</title>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+
+<body id="bodyMenu">
+
+    <div id="menu" class="barraLateral">
+        <ul class="menuListButtons">
+            <li class="menuButton"> <a href="#"> <img src="../../img/rollButton.png" class="imgMenuButton" alt="Inicial um Roll" /> </a> </li>
+            <li class="menuButton"> <a asp-controller="Home" asp-action="Acervo"> <img src="../../img/acervoButton.png" class="imgMenuButton" alt="Verificar Acervo" /> </a> </li>
+        </ul>
+    </div>
+
+</body>
