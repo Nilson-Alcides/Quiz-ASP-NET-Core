@@ -24,9 +24,9 @@ namespace QuizAspNet.Controllers
                             new Acervo
                             {
                                 Id = 1,
-                                Pergunta = "Qual é a capital da França?",
-                                RespostaCorreta = "Paris",
-                                Alternativas = new List<string> { "Paris", "Londres", "Berlim", "Madri" }
+                                Pergunta = "Qual é a capital da Minas Gerais?",
+                                RespostaCorreta = "Belo Horizonte",
+                                Alternativas = new List<string> { "Belo Horizonte", "Juiz de fora", "Lavras", "Mariana" }
                             },
                             new Acervo
                             {
@@ -39,8 +39,8 @@ namespace QuizAspNet.Controllers
                             {
                                 Id = 2,
                                 Pergunta = "Qual brasil esta em qual continente?",
-                                RespostaCorreta = "Continente americano",
-                                Alternativas = new List<string> { "Continente americano", "Continente asiático", "Continente europeu", "Continente africano" }
+                                RespostaCorreta = "Continente Americano",
+                                Alternativas = new List<string> { "Continente Americano", "Continente Asiático", "Continente Europeu", "Continente Africano" }
                             }
                         }
                     }
