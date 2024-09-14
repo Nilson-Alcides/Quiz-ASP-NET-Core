@@ -12,10 +12,11 @@
         var questao = quiz.Questoes[i];
         <div class="questao">
             <h4>@questao.Pergunta</h4>
-            <ul>
+            <ul class="alternativas">
                 @for (int j = 0; j < questao.Alternativas.Count; j++)
                 {
-                    <li>
+                    <li class="alternativas">
+                        
                         <input type="radio" id="Alternativas" name="respostas[@i]" value="@questao.Alternativas[j]" required />
                         <label for="Alternativas">@questao.Alternativas[j]</label>
                     </li>
