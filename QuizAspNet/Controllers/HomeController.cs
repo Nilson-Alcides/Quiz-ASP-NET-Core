@@ -13,6 +13,11 @@ namespace QuizAspNet.Controllers
             return View();
         }
 
+        public IActionResult Acervo()
+        {
+            return View();
+        }
+
 
     }
 }
