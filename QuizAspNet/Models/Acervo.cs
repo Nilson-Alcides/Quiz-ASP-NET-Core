@@ -1,4 +1,4 @@
-﻿namespace ProjetoGilsonDaniel_RollSP.Models
+﻿namespace QuizAspNet.Models
 {
     public class Acervo
     {
