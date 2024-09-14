@@ -3,7 +3,7 @@ using QuizAspNet.Models;
 
 namespace QuizAspNet.Controllers
 {
-    public class QuizEsportesController : Controller
+    public class QuizNarutoController : Controller
     {
         public IActionResult Index()
         {
@@ -18,36 +18,36 @@ namespace QuizAspNet.Controllers
                     new Quiz
                     {
                         Id = 1,
-                        Titulo = "Quiz de time de futebol",
+                        Titulo = "Quiz sobre anime Naruto",
                         Questoes = new List<Acervo>
                         {
                             new Acervo
                             {
                                 Id = 1,
-                                Pergunta = "Qual time tem mais títulos do Campeonato Brasileiro??",
-                                RespostaCorreta = "Palmeiras",
-                                Alternativas = new List<string> { "São Paulo", "Palmeiras", "Santos", "Corinthians",  }
+                                Pergunta = "Qual é o nome do clã de Naruto?",
+                                RespostaCorreta = "Clã Uzumaki",
+                                Alternativas = new List<string> { "Clã Uchiha", "Clã Uzumaki", "Clã Hyuga", "Clã Senju",  }
                             },
                             new Acervo
                             {
                                 Id = 2,
-                                Pergunta = "Quem é o maior artilheiro da história do Campeonato Brasileiro??",
-                                RespostaCorreta = "Roberto Dinamite",
-                                Alternativas = new List<string> { "Zico", "Roberto Dinamite", "Romário", "Pelé"}
+                                Pergunta = "Qual técnica Naruto aprende com Jiraiya durante o treinamento?",
+                                RespostaCorreta = "Rasengan",
+                                Alternativas = new List<string> { "Chidori", "Amaterasu", "Sharingan", "Rasengan" }
                             },
                             new Acervo
                             {
-                                Id = 2,
-                                Pergunta = "Quantas vezes o Brasil ganhou a copa?",
-                                RespostaCorreta = "5 Vezes",
-                                Alternativas = new List<string> { "5 Vezes", "7 Vezes", "3 Vezes", "5 Vezes" }
-                            },                            
+                                Id = 3,
+                                Pergunta = "Quem derrotou Pain durante o ataque a Konoha?",
+                                RespostaCorreta = "Naruto Uzumaki",
+                                Alternativas = new List<string> { "Kakashi Hatake", "Sakura Haruno", "Naruto Uzumaki", "Sasuke Uchiha" }
+                            },
                             new Acervo
                             {
-                                Id = 2,
-                                Pergunta = "Em que ano o Brasil conquistou sua primeira Copa do Mundo?",
-                                RespostaCorreta = "1958",
-                                Alternativas = new List<string> { "1950", "1958", "1962", "1970" }
+                                Id = 4,
+                                Pergunta = "Qual o objetivo da Akatsuki ao capturar as Bestas com Caudas?",
+                                RespostaCorreta = "Criar a paz mundial",
+                                Alternativas = new List<string> { "Dominar o mundo", "Fazer experimentos científicos", "Vingar-se da Vila da Folha", "Criar a paz mundial" }
                             }
 
                         }
@@ -71,39 +71,39 @@ namespace QuizAspNet.Controllers
                 Idade = 25,
                 Quizzes = new List<Quiz>
                 {
-                   new Quiz
+                    new Quiz
                     {
                         Id = 1,
-                        Titulo = "Quiz de time de futebol",
+                        Titulo = "Quiz sobre anime Naruto",
                         Questoes = new List<Acervo>
                         {
                             new Acervo
                             {
                                 Id = 1,
-                                Pergunta = "Qual time tem mais títulos do Campeonato Brasileiro??",
-                                RespostaCorreta = "Palmeiras",
-                                Alternativas = new List<string> { "São Paulo", "Palmeiras", "Santos", "Corinthians",  }
+                                Pergunta = "Qual é o nome do clã de Naruto?",
+                                RespostaCorreta = "Clã Uzumaki",
+                                Alternativas = new List<string> { "Clã Uchiha", "Clã Uzumaki", "Clã Hyuga", "Clã Senju",  }
                             },
                             new Acervo
                             {
                                 Id = 2,
-                                Pergunta = "Quem é o maior artilheiro da história do Campeonato Brasileiro??",
-                                RespostaCorreta = "Roberto Dinamite",
-                                Alternativas = new List<string> { "Zico", "Roberto Dinamite", "Romário", "Pelé"}
+                                Pergunta = "Qual técnica Naruto aprende com Jiraiya durante o treinamento?",
+                                RespostaCorreta = "Rasengan",
+                                Alternativas = new List<string> { "Chidori", "Amaterasu", "Sharingan", "Rasengan" }
                             },
                             new Acervo
                             {
                                 Id = 3,
-                                Pergunta = "Quantas vezes o Brasil ganhou a copa?",
-                                RespostaCorreta = "5 Vezes",
-                                Alternativas = new List<string> { "5 Vezes", "7 Vezes", "3 Vezes", "5 Vezes" }
+                                Pergunta = "Quem derrotou Pain durante o ataque a Konoha?",
+                                RespostaCorreta = "Naruto Uzumaki",
+                                Alternativas = new List<string> { "Kakashi Hatake", "Sakura Haruno", "Naruto Uzumaki", "Sasuke Uchiha" }
                             },
                             new Acervo
                             {
                                 Id = 4,
-                                Pergunta = "Em que ano o Brasil conquistou sua primeira Copa do Mundo?",
-                                RespostaCorreta = "1958",
-                                Alternativas = new List<string> { "1950", "1958", "1962", "1970" }
+                                Pergunta = "Qual o objetivo da Akatsuki ao capturar as Bestas com Caudas?",
+                                RespostaCorreta = "Criar a paz mundial",
+                                Alternativas = new List<string> { "Dominar o mundo", "Fazer experimentos científicos", "Vingar-se da Vila da Folha", "Criar a paz mundial" }
                             }
 
                         }

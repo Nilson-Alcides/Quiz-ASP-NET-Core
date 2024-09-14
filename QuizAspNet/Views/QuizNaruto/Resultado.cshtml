@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Resultado do Quiz";
+    string nome = ViewBag.Nome;
+    int corretas = ViewBag.Corretas;
+    int total = ViewBag.Total;
+    double percentual = (double)corretas / total * 100;
+}
+
+<h2>Resultado do Quiz</h2>
+
+<p><strong>@nome</strong> acertou <strong>@corretas</strong> de <strong>@total</strong> questões.</p>
+<p>Percentual de acertos: <strong>@percentual.ToString("F2")%</strong></p>
+
+@if (percentual >= 70)
+{
+    <p class="alert alert-success">Parabéns, você foi aprovado!</p>
+}
+else
+{
+    <p class="alert alert-danger">Infelizmente, você não foi aprovado. Tente novamente!</p>
+}
+
+<a class="btn btn-secondary" href="@Url.Action("Index", "Home")">Voltar ao Quiz</a>
