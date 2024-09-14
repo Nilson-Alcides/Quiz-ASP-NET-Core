@@ -3,7 +3,7 @@ using QuizAspNet.Models;
 
 namespace QuizAspNet.Controllers
 {
-    public class QuizController : Controller
+    public class QuizGeraisController : Controller
     {
         public IActionResult Index()
         {
